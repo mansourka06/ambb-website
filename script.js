@@ -30,19 +30,18 @@ $(document).ready(function(){
         $('.menu-btn i').toggleClass("active");
     });
     // typing text animation script
-    //var typed = new Typed(".typing", {
-    //    strings: ["Technologies"],
-    //    // strings: ["cloud", "DevOps", "Engineer"],
-    //    typeSpeed: 100,
-    //    backSpeed: 60,
-    //    loop: true
-    //});
-    var typed = new Typed(".typing-2", {
-        strings: ["Technologies"],
+    var typed = new Typed(".typing", {
+        strings: ["Innovation", "Digitalisation", "IT transformation"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
+    //var typed = new Typed(".typing-2", {
+    //    strings: ["Technologies"],
+    //   typeSpeed: 100,
+    //    backSpeed: 60,
+    //    loop: true
+    //});
     // owl carousel script
     $('.carousel').owlCarousel({
         margin: 20,

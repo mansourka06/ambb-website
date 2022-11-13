@@ -157,7 +157,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/banner-app.jpg") no-repeat center;
+    background: url("images/logo") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -258,8 +258,8 @@ section .title::after{
 }
 .experience .title::after,
 .team .title::after{
-    background: #111;
-    content: "our work";
+    background: #0F056B;
+    content: "";
 }
 .experience .serv-content .card{
     width: calc(33% - 20px);
@@ -553,7 +553,7 @@ footer span a:hover{
         font-size: 25px;
     }
     .home .home-content .text-2{
-        font-size: 70px;
+        font-size: 30px;
     }
     .home .home-content .text-3{
         font-size: 35px;
