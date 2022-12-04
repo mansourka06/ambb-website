@@ -341,7 +341,7 @@ section .title::after{
 
 /* team section styling */
 .team .title::after{
-    content: "CEO & Fonders";
+    content: "Membres Fondateurs";
 }
 .team .carousel .card{
     background: #222;
@@ -403,7 +403,7 @@ section .title::after{
 }
 /* contact section styling */
 .contact .title::after{
-    content: "get in touch";
+    content: "Prise de contact";
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
